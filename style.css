@@ -21,7 +21,8 @@
 }
 
 body {
-  @apply min-h-screen p-4 font-opensans text-sm lg:text-base text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg;
+  @apply p-4 font-opensans text-sm lg:text-base text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg;
+  min-height: 100dvh;
 }
 
 h1 {
