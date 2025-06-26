@@ -1,6 +1,6 @@
 "use strict";
 
-const LV_CAP = 300;
+const LV_CAP = 305;
 
 const range = function (begin, end, step = 1) {
   let list = [];
