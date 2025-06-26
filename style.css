@@ -89,7 +89,6 @@ select:focus {
 .checkbox-switch {
   margin-right: 0.5rem;
   display: flex;
-  cursor: pointer;
 }
 
 .checkbox-switch .checkbox-switch-b {
@@ -127,10 +126,6 @@ select:focus {
   position: absolute;
   top: 3px;
   width: 14px;
-}
-
-.checkbox-switch input[type="checkbox"] {
-  cursor: default;
 }
 
 .checkbox-switch .checkbox-switch-b:hover {
