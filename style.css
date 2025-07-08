@@ -134,7 +134,7 @@ select:focus {
 }
 
 .checkbox-switch .checkbox-switch-b:checked {
-  background-color: var(--color-indigo-400);
+  @apply bg-gradient-to-r from-indigo-300 to-indigo-200 dark:from-indigo-500 dark:to-indigo-700;
 }
 
 .checkbox-switch .checkbox-switch-b:checked::after {
