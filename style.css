@@ -50,7 +50,7 @@ select:focus {
 }
 
 .radio-input {
-  @apply bg-dark-bg/10 dark:bg-light-bg/10 backdrop-blur-md;
+  @apply bg-dark-bg/5 dark:bg-light-bg/10 backdrop-blur-md;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +82,7 @@ select:focus {
 }
 
 .radio-input label input:checked + .name {
-  @apply bg-indigo-300 dark:bg-indigo-500;
+  @apply bg-gradient-to-r from-indigo-300 to-indigo-200 dark:from-indigo-500 dark:to-indigo-700;
   font-weight: 700;
 }
 
