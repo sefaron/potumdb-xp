@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  @apply text-2xl lg:text-3xl font-extrabold text-shadow-2xs text-transparent bg-gradient-to-r from-indigo-400 to-indigo-300 bg-clip-text;
+  @apply text-2xl lg:text-3xl font-extrabold text-shadow-2xs text-transparent bg-gradient-to-r from-indigo-300 to-indigo-200 dark:from-indigo-500 dark:to-indigo-700 bg-clip-text;
 }
 
 input {
