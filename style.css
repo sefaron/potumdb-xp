@@ -5,24 +5,23 @@
   --font-opensans: "Open Sans", sans-serif;
 
   --color-light-text: hsl(0, 0%, 7%);
-  --color-dark-text: hsl(240, 3%, 94%);
+  --color-dark-text: hsl(0, 0%, 89%);
 
   --color-light-bg: hsl(0, 0%, 100%);
-  --color-dark-bg: hsl(0, 0%, 7%);
+  --color-dark-bg: hsl(0, 0%, 11%);
 
   --color-light-primary: hsl(0, 0%, 98%);
-  --color-dark-primary: hsl(0, 0%, 9%);
+  --color-dark-primary: hsl(0, 0%, 22%);
 
   --color-light-secondary: hsl(0, 0%, 95%);
-  --color-dark-secondary: hsl(0, 0%, 11%);
+  --color-dark-secondary: hsl(0, 0%, 21%);
 
   --color-light-border: hsl(0, 0%, 90%);
   --color-dark-border: hsl(0, 0%, 29%);
 }
 
 body {
-  @apply p-4 font-opensans text-sm text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg;
-  min-height: 100dvh;
+  @apply font-opensans text-sm text-light-text dark:text-dark-text bg-light-bg dark:bg-dark-bg min-h-dvh;
 }
 
 h1 {
@@ -30,11 +29,11 @@ h1 {
 }
 
 input {
-  @apply bg-light-primary dark:bg-dark-primary border border-light-border dark:border-dark-border px-2 py-1.5 rounded-md text-center;
+  @apply bg-light-primary dark:bg-dark-primary border dark:border-none border-light-border dark:border-dark-border px-2 py-1.5 rounded-md text-center;
 }
 
 select {
-  @apply w-[300px] lg:w-[450px] bg-light-primary dark:bg-dark-primary border border-light-border dark:border-dark-border px-2 py-1.5 rounded-md text-center cursor-pointer appearance-none;
+  @apply w-[300px] lg:w-[450px] bg-light-primary dark:bg-dark-primary border dark:border-none border-light-border dark:border-dark-border px-2 py-1.5 rounded-md text-center cursor-pointer appearance-none;
 }
 
 /* Chrome, Safari, Edge, Opera */
