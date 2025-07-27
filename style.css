@@ -43,6 +43,11 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 input:focus,
 select:focus {
   outline: 1px solid var(--color-indigo-400);
