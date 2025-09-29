@@ -202,6 +202,7 @@ const mq_data = {
   "Ark Crisis": 210500000,
   "Coastal Clash": 216300000,
   "Unda's Rescue Operation": 222200000,
+  "Unda's Return": 228100000,
 };
 
 const splitMqInfo = function () {
